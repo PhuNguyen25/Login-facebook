@@ -244,7 +244,7 @@ function Dashboard() {
         </div>
       ) : (
         <FacebookLogin
-          appId="1052016440060467"
+          appId="1047240919599155"
           autoLoad={false}
           fields="name,email,picture"
           scope="email,pages_show_list,ads_management,ads_read,business_management"
