@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+.LoginContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .LoginInner {
+    text-align: center;
+    margin-top: 7rem;
+    color: white;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .eye_flash {
+    color: gray;
+  }
+  .btn_login {
+    background: $primary;
+    border: none;
+    &:hover {
+      background: $hover_primary;
+    }
+  }
+}

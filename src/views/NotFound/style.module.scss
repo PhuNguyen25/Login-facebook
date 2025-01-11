@@ -1,0 +1,34 @@
+.NotFoundContainer {
+    margin-top: 6rem;
+    text-align: center;
+    h2 {
+      font-size: 130px;
+      font-weight: 600;
+      -webkit-animation: infinite-blink 2s infinite;
+      animation: infinite-blink 2s infinite;
+      font-family: "Nunito Sans", sans-serif;
+    }
+    .sub_description {
+      font-size: 2rem;
+    }
+  }
+  @-webkit-keyframes infinite-blink {
+    60%,
+    80% {
+      color: #776acf;
+    }
+    100%,
+    70% {
+      color: #121416;
+    }
+  }
+  @keyframes infinite-blink {
+    60%,
+    80% {
+      color: #776acf;
+    }
+    100%,
+    70% {
+      color: #121416;
+    }
+  }

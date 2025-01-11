@@ -1,33 +1,58 @@
-.App {
-  text-align: center;
-  margin-top: 50px;
+
+body {
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.facebook-button {
-  padding: 10px 20px;
-  background-color: #4267B2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+i,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  padding: 0;
+  margin: 0;
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.dash-troggle.collapsed svg {
+  transform: rotate(180deg);
 }
 
-.account-info {
-  margin-top: 20px;
+/* Page link css */
+
+.pagination .page-item.active span.page-link {
+  background: #cf8b00;
+  border: #cf8b00;
+}
+.pagination .page-item a.page-link  {
+  color: #cf8b00;
 }
 
-.profile-pic {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-}
-
-table {
-  margin: auto;
-  border-collapse: collapse;
-}
-
-td {
-  padding: 10px;
-  border: 1px solid #ddd;
+.recharts-wrapper {
+  width: 100% !important;
 }

@@ -1,0 +1,25 @@
+@import "../styles/variables";
+.layout_wrapper {
+  background-color: var(--bs-body-bg);
+  margin: 0 auto;
+}
+._main {
+  margin-left: 255px;
+  overflow: hidden;
+  padding: 20px; 
+  background-color: #f5f5f9;
+  min-height: 100vh;
+}
+
+._main.isCollapsedContent {
+  margin-left: 80px;
+}
+
+@media screen and (max-width: 994px){
+  ._main {
+    margin: 0;
+  }
+  ._main.isCollapsedContent {
+    margin: 0;
+  }
+}

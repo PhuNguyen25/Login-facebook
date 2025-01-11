@@ -1,0 +1,33 @@
+.table {
+  margin-bottom: 20px;
+}
+.header_table {
+  font-size: 25px;
+  padding: 20px;
+}
+.table_container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+.header_table_container {
+  display: flex;
+  justify-content: space-between;
+}
+.header_thead {
+  background-color: #696cff;
+  color: #fff;
+}
+.custom-thead {
+    background-color: #696cff; 
+    color: #ffffff; 
+    
+  }
+.header_button {
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+  background-color: #696cff;
+  border: none;
+  border-radius: 8px;
+}
