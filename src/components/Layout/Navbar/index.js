@@ -65,8 +65,8 @@ export class Navbar extends Component {
         <div className={Style.navbar_brand_box}>
           <Link to="index.html" className={Style.logo_dark}>
             <span className="logo-lg">
-              <img src="/images/logo-sm.svg" alt="logo main" height={26} />
-              <span className={Style.logo_text}>An vat</span>
+              <img src="/images/ov-technology-sdk01.png" alt="logo main" height={26} />
+              <span className={Style.logo_text}></span>
             </span>
           </Link>
           <button

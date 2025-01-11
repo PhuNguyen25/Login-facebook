@@ -280,7 +280,6 @@ class Header extends Component {
                   </span>
                 </button>
                 <div className="dropdown-menu dropdown-menu-end pt-0">
-                  <h6 className="dropdown-header">Welcome Marie N!</h6>
                   <Link
                     className={`${Style.dropdown_item} dropdown-item`}
                     to="/profile"
